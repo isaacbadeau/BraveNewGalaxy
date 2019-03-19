@@ -47,7 +47,7 @@
     <Compile Include="IntroToTheGame.cs" />
     <Compile Include="NexusOfTheGalaxy.cs" />
     <Compile Include="PlanetClass.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="PlayerAttributes.cs" />
     <Compile Include="PlayerSelect.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

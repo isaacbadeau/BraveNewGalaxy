@@ -14,15 +14,15 @@ namespace ABraveNewGalaxy
             Console.Clear();
             string earthName = EarthName();
             string alphaName = AlphaName();
-            string proximaName = ProximaName();
+            string proximaName = ObicromPersei8Name();
             Console.WriteLine($"You stand at the Nexus of the Galaxy! There are several\n" +
-                              $"portals before you. Do you dare to travel?\n\n" +
+                              $"portals before you. Do you dare to travel?\n\n"+
                               $"Earth\n" +
                               $"Proxima B\n" +
                               $"Alpha Centauri\n\n" +
                               $"Select a Destination");
             bool test = true;
-            while(test)
+            while (test)
             {
                 var input = Console.ReadLine();
                 switch (input)
@@ -41,7 +41,7 @@ namespace ABraveNewGalaxy
                         break;
                 }
             }
-            
+
         }
     }
 }

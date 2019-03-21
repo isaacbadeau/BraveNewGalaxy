@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ABraveNewGalaxy
 {
-    class ShopClass:ShipClass
+    public class ShopClass:ShipClass
     {
-        public List<string> shopOneInv = new List<string>() { "Odd Statue of a God", "Huge Ancient Battle Axe", "An Ancient Tome of Lore" };
-        public List<string> shopTwoInv = new List<string>() { "Gundanium Alloy", "Adamantium", "Liquid Pollinium" };
-        public List<string> shopThreeInv = new List<string>() { "A Fat Cow", "A Succulent Pig", "A Gaggle of Geese" };
+        public List<string> shopOneInv = new List<string>() { "Odd Statue of a God\t\t(antique)\t5000cr", "Huge Ancient Battle Axe\t(antique)\t8000cr", "An Ancient Tome of Lore\t(antique)\t10000cr" };
+        public List<string> shopTwoInv = new List<string>() { "Gundanium Alloy\t(prescious metal)\t5000cr", "Adamantium\t\t(prescious metal)\t8000cr", "Liquid Pollinium\t(prescious metal)\t10000cr" };
+        public List<string> shopThreeInv = new List<string>() { "A Fat Cow\t\t(food)\t5000cr", "A Succulent Pig\t(food)\t8000cr", "A Gaggle of Geese\t(food)\t10000cr" };
         public string ShopDesc { get; set; }
         
 

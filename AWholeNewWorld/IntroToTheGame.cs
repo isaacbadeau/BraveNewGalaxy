@@ -8,6 +8,8 @@ namespace ABraveNewGalaxy
 {
     class IntroToTheGame:NexusOfTheGalaxy
     {
+
+        
         public void GameIntro()
         {
             Console.Clear();

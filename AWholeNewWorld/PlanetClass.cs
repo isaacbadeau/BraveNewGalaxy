@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ABraveNewGalaxy
 {
-    class PlanetClass:ShopClass
+    public class PlanetClass:ShopClass
     {
         public string PlanetName { get; set; }
         public string PlanetDesc { get; set; }
@@ -48,16 +48,16 @@ namespace ABraveNewGalaxy
         }
 
 
-        public string ProximaName()
+        public string ObicromPersei8Name()
         {
-            PlanetName = "Proxima B";
+            PlanetName = "Obicrom Persie 8";
 
             return PlanetName;
         }
 
-        public string ProximaB()
+        public string ObicromPersei8Desc()
         {
-            PlanetDesc = "You have touched down on a planatoid orbitting a rogue planet around Proxima B\n" +
+            PlanetDesc = "You have touched down on a planatoid orbitting a rogue planet around Obicrom Persei 8\n" +
                          "You must say, the company being held here is less than reputable. There are\n" +
                          "shady characters all over, and the people look starved. You notice a shop to\n" +
                          "the north.\n\n" +

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ABraveNewGalaxy
 {
-    class ShipClass: CharacterClass
+    public class ShipClass: CharacterClass
     {
-        public int ShipCargo = 100;
+        public int ShipCargo = 10;
         public string ShipName = "Blue Falcon";
 
     }

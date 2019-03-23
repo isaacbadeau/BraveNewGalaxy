@@ -15,25 +15,25 @@ namespace ABraveNewGalaxy
             string earthName = EarthName();
             string alphaName = AlphaName();
             string proximaName = ObicromPersei8Name();
-            Console.WriteLine($"You stand at the Nexus of the Galaxy! There are several\n" +
-                              $"portals before you. Do you dare to travel?\n\n"+
-                              $"Earth\n" +
-                              $"Proxima B\n" +
-                              $"Alpha Centauri\n\n" +
-                              $"Select a Destination");
+            Console.WriteLine("\n\n\t\t\t\t\tNexus of the Galaxy\n");
+            Console.WriteLine($"\t\t\tYou stand at the Nexus of the Galaxy. There are several\n" +
+                              $"\t\t\tportals before you. Do you dare to travel?\n\n"+
+                              $"\t\t\t\t[E]arth\n" +
+                              $"\t\t\t\t[O]bicrom Persei 8\n" +
+                              $"\t\t\t\t[A]lpha Centauri\n\n");
             bool test = true;
             while (test)
             {
-                var input = Console.ReadLine();
-                switch (input)
+                var input = Console.ReadKey();
+                switch (input.Key)
                 {
-                    case "earth":
+                    case ConsoleKey.E:
                         PlanetEarth();
                         break;
-                    case "proxima b":
-                        PlanetProxima();
+                    case ConsoleKey.O:
+                        PlanetObicrom();
                         break;
-                    case "alpha centauri":
+                    case ConsoleKey.A:
                         PlanetAlpha();
                         break;
                     default:

@@ -20,11 +20,12 @@ namespace ABraveNewGalaxy
         public string EarthDesc()
         {
             
-            PlanetDesc = "You've arrived at the main trading port of Earth.  \n" +
-                         "The variety of humanoid species here is astonishing. You can't help but notice\n" +
-                         "the local population looks rather affluent based on the rare metallic jewelry\n" +
+            PlanetDesc = "You've arrived at the main trading port of Earth.\n" +
+                         "The variety of humanoid species here is astonishing.\n" +
+                         "You can't help but notice the local population looks\n" +
+                         "rather affluent based on the rare metallic jewelry\n" +
                          "they adorn. You see a shop to the west.\n\n" +
-                         "Exits: West, Leave";
+                         "Exits: [W]est, [L]eave";
             return PlanetDesc;
         }
 
@@ -38,11 +39,12 @@ namespace ABraveNewGalaxy
 
         public string AlphaCentauriDesc()
         {
-            PlanetDesc = "You've arrived at the main port of a small planet orbitting Alpha Centauri. There are people\n" +
-                         "bustling all around trading this and that.  You can't help but notice\n" +
-                         "that there seems to be a premium placed on odd trinkets and antiques.\n\n" +
-                         "You see a shop to the east." +
-                         "Exits: East, Leave";
+            PlanetDesc = "You've arrived at the main port of a small planet orbitting\n" +
+                         "Alpha Centauri. There are beings bustling all around trading\n" +
+                         "this and that.  You can't help but notice that there seems\n" +
+                         "to be a premium placed on odd trinkets and antiques. You see\n" +
+                         "a shop to the east.\n\n" +
+                         "Exits: [E]ast, [L]eave";
 
             return PlanetDesc;
         }
@@ -57,11 +59,11 @@ namespace ABraveNewGalaxy
 
         public string ObicromPersei8Desc()
         {
-            PlanetDesc = "You have touched down on a planatoid orbitting a rogue planet around Obicrom Persei 8\n" +
-                         "You must say, the company being held here is less than reputable. There are\n" +
-                         "shady characters all over, and the people look starved. You notice a shop to\n" +
-                         "the north.\n\n" +
-                         "Exits: North, Leave";
+            PlanetDesc = "You have touched down on a rogue planet orbitting Obicrom Persei 8. You\n" +
+                         "must say, the company being held here is less than reputable. There\n" +
+                         "are shady characters all over. The people look starved. You notice a shop\n" +
+                         "to the north.\n\n" +
+                         "Exits: [N]orth, [L]eave";
 
             return PlanetDesc;
         }

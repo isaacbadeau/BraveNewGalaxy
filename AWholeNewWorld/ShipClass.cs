@@ -8,7 +8,7 @@ namespace ABraveNewGalaxy
 {
     public class ShipClass: CharacterClass
     {
-        public int ShipCargo = 10;
+        public int ShipCargo = 20;
         public string ShipName = "Blue Falcon";
 
     }
